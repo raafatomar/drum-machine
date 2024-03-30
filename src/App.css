@@ -1,0 +1,18 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 33vh;
+}
+.drumPads{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.drum-pad{
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
